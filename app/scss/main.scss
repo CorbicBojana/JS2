@@ -1,0 +1,52 @@
+@import "reset";
+@import "variables";
+@import "mixins";
+@import "fonts";
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 98rem;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-1 {
+  width: 100%;
+}
+
+img {
+    max-width: 100%;
+  }
+  
+  h1 {
+    font-size: 4.8rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+    color: $yellow-color;
+  }
+  
+  h3 {
+    font-size: 3.6rem;
+  }
