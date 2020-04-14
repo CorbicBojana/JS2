@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/CorbicBojana/JS2/issues"
   },
-  "homepage": "https://github.com/CorbicBojana/JS2#readme"
+  "homepage": "https://github.com/CorbicBojana/JS2#readme",
+  "dependencies": {
+    "grunt": "^1.0.4"
+  },
+  "devDependencies": {
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-imagemin": "^3.1.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.1.0",
+    "load-grunt-tasks": "^5.1.0",
+    "node-sass": "^4.12.0"
+  }
 }
