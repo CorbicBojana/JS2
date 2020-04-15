@@ -50,4 +50,3 @@ module.exports = function(grunt) {
     grunt.registerTask("imagemin", ["imagemin"]);
     grunt.registerTask("default", ["sass", "cssmin", "watch"]);
   };
-  
